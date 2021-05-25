@@ -35,13 +35,26 @@ type AllCharacters {
     characters: [Chararters]
 }
 
+input CreateUserInput {
+  id: Int
+  name: String
+  age: Int
+  email: String
+  friends: [Int]
+}
+
   type Query {
     hello: String
     getCharacters: AllCharacters
     users: [User]
+    user(id: Int!): User
+  }
+  type Mutation {
+    createUser(input: CreateUserInput!): User
+    updateUser(id: Int!, input: CreateUserInput!): User
+    deleteUser(id: Int!): User
   }
 
- 
 
 `
 module.exports = typeDefs

@@ -2,6 +2,7 @@ import axios from 'axios'
 
 class User {
   constructor() {
+
     this.api = axios.create({
       baseURL: 'http://localhost:3000' // json-server endpoint
     })
@@ -12,11 +13,12 @@ class User {
   }
 
   find(id) {
+    console.log(id, 'within the model')
     return this.api.get(`/users/${id}`).then(res => res.data)
   }
 
   create(data) {
-    data.friends = data.friends ? data.friends.map(id => ({ id })) : []
+    console.log(data)
     return this.api.post('/users', data).then(res => res.data)
   }
 
@@ -29,4 +31,4 @@ class User {
   }
 }
 
-export default new User()
+export default User
