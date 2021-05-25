@@ -1,0 +1,31 @@
+{
+  "name": "graphql-rest-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- ./src/index.js",
+    "dev:json": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.2",
+    "@babel/node": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^0.13.0",
+    "apollo-server": "^2.24.0",
+    "apollo-server-express": "^2.24.1",
+    "axios": "^0.21.1",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "graphql-import": "^1.0.2",
+    "graphql-tools": "^4.0.8",
+    "json-server": "^0.16.3"
+  }
+}
