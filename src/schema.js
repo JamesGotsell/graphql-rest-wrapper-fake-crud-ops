@@ -8,7 +8,7 @@ type User {
   name: String
   age: Int
   email: String
-  friends: [User]
+
 }
 
 type Info {
@@ -40,7 +40,6 @@ input CreateUserInput {
   name: String
   age: Int
   email: String
-  friends: [Int]
 }
 
   type Query {
