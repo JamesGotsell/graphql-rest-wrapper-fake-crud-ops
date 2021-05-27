@@ -1,160 +1,58 @@
 {
   "users": [
     {
-      "id": 0,
-      "age": 31,
-      "name": "Peck Montoya",
-      "email": "peckmontoya@qualitex.com",
-      "friends": [
-        {
-          "id": 1
-        },
-        {
-          "id": 2
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "age": 36,
-      "name": "Renee Herman",
-      "email": "reneeherman@qualitex.com",
-      "friends": [
-        {
-          "id": 0
-        },
-        {
-          "id": 2
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "age": 23,
-      "name": "Sheena Madden",
-      "email": "sheenamadden@qualitex.com",
-      "friends": [
-        {
-          "id": 0
-        },
-        {
-          "id": 1
-        }
-      ]
-    },
-    {
       "id": 3,
       "age": 22,
       "name": "Shari Justice",
-      "email": "sharijustice@qualitex.com",
-      "friends": [
-        {
-          "id": 4
-        }
-      ]
+      "email": "sharijustice@qualitex.com"
     },
     {
       "id": 4,
       "age": 38,
       "name": "Eaton Horton",
-      "email": "eatonhorton@qualitex.com",
-      "friends": [
-        {
-          "id": 3
-        }
-      ]
+      "email": "eatonhorton@qualitex.com"
     },
     {
       "id": 5,
       "age": 18,
       "name": "Lois Best",
-      "email": "loisbest@qualitex.com",
-      "friends": [
-        {
-          "id": 6
-        },
-        {
-          "id": 7
-        },
-        {
-          "id": 8
-        },
-        {
-          "id": 9
-        }
-      ]
+      "email": "loisbest@qualitex.com"
     },
     {
       "id": 6,
       "age": 40,
       "name": "Schroeder Stafford",
-      "email": "schroederstafford@qualitex.com",
-      "friends": [
-        {
-          "id": 5
-        }
-      ]
+      "email": "schroederstafford@qualitex.com"
     },
     {
       "id": 7,
       "age": 33,
       "name": "Hanson Collins",
-      "email": "hansoncollins@qualitex.com",
-      "friends": [
-        {
-          "id": 5
-        }
-      ]
+      "email": "hansoncollins@qualitex.com"
     },
     {
       "id": 8,
       "age": 21,
       "name": "Walton York",
-      "email": "waltonyork@qualitex.com",
-      "friends": [
-        {
-          "id": 5
-        }
-      ]
+      "email": "waltonyork@qualitex.com"
     },
     {
       "id": 9,
       "age": 38,
       "name": "Walter Manning",
-      "email": "waltermanning@qualitex.com",
-      "friends": [
-        {
-          "id": 5
-        },
-        {
-          "id": 10
-        }
-      ]
+      "email": "waltermanning@qualitex.com"
     },
     {
       "id": 10,
       "age": 26,
       "name": "Carmen Butler",
-      "email": "carmenbutler@qualitex.com",
-      "friends": [
-        {
-          "id": 9
-        }
-      ]
+      "email": "carmenbutler@qualitex.com"
     },
     {
       "id": 13,
       "name": "Indigo Montoya",
       "age": 31,
-      "email": "indigomontoya@gmail.com",
-      "friends": [
-        {
-          "id": 1
-        },
-        {
-          "id": 2
-        }
-      ]
+      "email": "indigomontoya@gmail.com"
     },
     {
       "name": "james-bob",
@@ -185,10 +83,46 @@
       "id": 19
     },
     {
-      "name": "asdasda",
-      "age": 123,
-      "email": "asda@asd.com",
+      "name": "James Gotsell",
+      "age": 222,
+      "email": "j.e.gotsell@gmail.com",
       "id": 20
+    },
+    {
+      "name": "test",
+      "age": 23,
+      "email": "test@test.com",
+      "id": 22
+    },
+    {
+      "name": "test2",
+      "age": 23,
+      "email": "test2@test.com",
+      "id": 23
+    },
+    {
+      "name": "asdasd",
+      "age": 23,
+      "email": "asdas@asda.com",
+      "id": 24
+    },
+    {
+      "name": "asdasd",
+      "age": 23,
+      "email": "asdas@asda.com",
+      "id": 25
+    },
+    {
+      "name": "test22222222",
+      "age": 231231,
+      "email": "test22222222@test22222222.com",
+      "id": 26
+    },
+    {
+      "name": "test2",
+      "age": 22,
+      "email": "test@test.com",
+      "id": 27
     }
   ]
 }
